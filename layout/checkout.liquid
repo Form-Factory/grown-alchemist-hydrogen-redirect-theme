@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
+    <meta name="referrer" content="origin">
+    {{ content_for_header }}
+    <!-- Shopping Gives -->
+    
+    {% if checkout.attributes['sg.sid-7afba159761f4dd9b08d585eb8288daf'] %}
+    <script type="text/javascript" src="https://cdn.shoppinggives.com/cc-utilities/sgloader.js?sid=7afba159-761f-4dd9-b08d-585eb8288daf"></script>
+    <script src="https://cdn.shoppinggives.com/cc-utilities/shopify-cart.js?store-id=7afba159-761f-4dd9-b08d-585eb8288daf&template-type=1&target-element=.sg-widget__container"></script>
+    <style>
+      .sg-widget__container {
+        display: grid;
+        gap: 10px;
+      }
+      .sg-widget .shoppinggives-tag {
+        margin-bottom: 0 !important;
+      }
+      .sg-widget .main-element.sg-excluded {
+        display: none !important;
+      }
+      .order-summary__sections {
+        height: auto !important;
+      }
+    </style>
+    {% endif %}
+
+    <!-- End Shopping Gives -->
+    
+    <!-- EcoCart Carbon Offset -->
+    <script async src="https://d2v82nkpsxzrcr.cloudfront.net/ecocart.js?shop_name=grownalchemist2022.myshopify.com"></script>
+    <!-- End EcoCart -->
+    <!--   Cart.js   -->
+    <script src="{{ 'cart.js' | asset_url }}"></script>
+    {{ checkout_stylesheets }}
+    {{ checkout_scripts }}
+    <script>
+      (function() {
+        window.grownAlchemist = window.grownAlchemist || {};
+        window.grownAlchemist.theme = {
+          template: '{{ template }}',
+          customerEmail: '{{ customer.email }}',
+        };
+      })();
+      // (function($) {
+      //   $(document).on("page:load page:change", function() {
+      //     $.post('/cart/update.js', { attributes : { "my-attribute": "my-attribute-value-updated" } } );
+      //   });
+      // })(Checkout.$);
+    </script>
+  </head>
+  <body>
+    {{ skip_to_content_link }}
+
+    <header class="banner" data-header role="banner">
+      <div class="wrap">
+        <a href="https://www.grownalchemist.com/">
+          {{ content_for_logo }}
+        </a>
+      </div>
+    </header>
+
+    {{ order_summary_toggle }}
+    <div class="content" data-content>
+      <div class="wrap">
+        <div class="main">
+          <header class="main__header" role="banner">
+            <a class="logo__redirect" href="https://www.grownalchemist.com/">
+              {{ content_for_logo }}
+            </a>
+            {{ breadcrumb }}
+            {{ alternative_payment_methods }}
+          </header>
+          <main class="main__content" role="main">
+            
+            {{ content_for_layout }}
+            
+            
+          </main>
+          <footer class="main__footer" role="contentinfo">
+            {{ content_for_footer }}
+          </footer>
+        </div>
+        <aside class="sidebar" role="complementary">
+          <div class="sidebar__header">
+            <a class="logo__redirect" href="https://www.grownalchemist.com/">
+              {{ content_for_logo }}
+            </a>
+          </div>
+          <div class="sidebar__content">
+            {{ content_for_order_summary }}
+            <div class="sg-widget__container">
+              <script src="https://cdn.shoppinggives.com/cc-utilities/shopify-add-on.js?sid=7afba159-761f-4dd9-b08d-585eb8288daf&variants=43547692564650-1,43547692597418-3,43547692630186-5,43547692662954-10"></script>
+            </div>
+            
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    {{ tracking_code }}
+    {% include "locale" %}
+  {% include 'ba-discounts' %}
+</body>
+  {% include 'smsbump_checkout_marketing_subscription' %}
+</html>
+
+{{ 'idme-checkout-style.css' | asset_url | stylesheet_tag }}
+{{ 'idme-checkout-template.js' | asset_url | script_tag }}

@@ -1,0 +1,53 @@
+<script>
+(function() {
+  const checkoutLinks = document?.querySelectorAll('a')
+  
+  function waitForElm(selector) {
+    return new Promise(resolve => {
+        if (document.querySelector(selector)) {
+            return resolve(document.querySelector(selector));
+        }
+  
+        const observer = new MutationObserver(mutations => {
+            if (document.querySelector(selector)) {
+                resolve(document.querySelector(selector));
+                observer.disconnect();
+            }
+        });
+  
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+  }
+  
+  if (typeof window !== 'undefined' && typeof localStorage !== 'undefined') {
+    const currentLocaleItem = localStorage.getItem('currentLocale')
+    const currentLocaleValue = JSON.parse(currentLocaleItem)
+
+    const idmeWhitelist = localStorage.getItem('idmeWhitelist')
+    const idmeWhitelistValues = JSON.parse(idmeWhitelist)
+    const isLocaleWhitelisted = idmeWhitelistValues?.some(list => list.prefix === currentLocaleValue.prefix)
+
+    checkoutLinks.forEach(link => {
+      const linkUrl = link.getAttribute('href')
+
+
+      if(linkUrl.includes('https://www.grownalchemist.com')){
+        link.href = `https://www.grownalchemist.com${currentLocaleValue.path}`
+      }
+    })
+
+    waitForElm('.idme').then((elm) => {
+      if(isLocaleWhitelisted){
+        elm.style.display = 'block'
+      } else {
+        elm.style.display = 'none'
+      }
+    });
+  }
+
+})();
+
+</script>
