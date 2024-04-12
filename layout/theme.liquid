@@ -138,7 +138,60 @@
         }
       }
     </style>
-  </head>
+  
+
+  <!-- INJECTED CODE BY LUCKY -->
+  <link rel="preconnect" href="https://pif.luckylabs.io">
+  <script>
+    // Define Lucky's variables
+    (function(){
+      {% assign firstVariantId = product.selected_or_first_available_variant.id %}
+      {% assign currentProductId = product.id %}
+      {% assign currentProductTitle = product.title %}
+      {% assign prodMetafields = all_products[product.metafields.lucky.originalProduct] %}
+      {% assign isCloned = product.metafields.lucky.cloned %}
+
+      {% if currentProductId %}
+        window.LUCKY_FIRST_VARIANT_ID = {{ firstVariantId }};
+        window.CURRENT_PRODUCT_ID = {{ currentProductId }};
+        window.CURRENT_PRODUCT_TITLE = `{{ currentProductTitle }}`;
+        window.PROD_METAFIELDS = {{ prodMetafields | json}};
+        window.PROD_IS_CLONED = {{ isCloned | default: 0 }};
+      {% endif %}
+
+      window.Lucky = {
+        appURL: 'https://pif.luckylabs.io'
+      }
+
+      window.Lucky.isLuckyProdPage = function() {
+        const PREFIX_LUCKY_PRODUCT_TITLE = '[Fulfilled by Lucky]';
+        const lcPrefixLuckyPrdTitle = PREFIX_LUCKY_PRODUCT_TITLE.toLowerCase();
+        const lcCurrentProdTitle =
+          window.CURRENT_PRODUCT_TITLE &&
+          window.CURRENT_PRODUCT_TITLE.toLowerCase();
+        return lcCurrentProdTitle.indexOf(lcPrefixLuckyPrdTitle) > -1;
+      }
+
+      window.Lucky.isSingleProdPage = !!window.LUCKY_FIRST_VARIANT_ID && !!window.CURRENT_PRODUCT_ID;
+
+    })()
+  </script>
+
+  <script>
+    // Redirect to original product
+    if (window.Lucky.isSingleProdPage && window.Lucky.isLuckyProdPage()) {
+      if (window.PROD_METAFIELDS && window.PROD_METAFIELDS.handle) {
+        window.location.href= window.location.origin + '/products/' + window.PROD_METAFIELDS.handle;
+      }
+    }
+  </script>
+
+  <script crossorigin src="https://cdn.luckylabs.io/prd/lucky-local/org/integration-scripts/index.js"></script>
+  <script type="module" crossorigin src="https://cdn.luckylabs.io/prd/lucky-local/org/built-sources/index.js"></script>
+  <script id="lk-store-locator-script" type="module" crossorigin src="https://cdn.luckylabs.io/prd/store-locator/org/index.js"></script>
+
+  <!-- INJECTED CODE BY LUCKY -->
+</head>
   <body>
     {%- if should_redirect -%}
       <div class="redirect">
