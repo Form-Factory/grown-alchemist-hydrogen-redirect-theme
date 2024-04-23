@@ -1,12 +1,12 @@
 {
   "store": {
     "id": 62586945706,
-    "plan": null,
+    "plan": "enterprise",
     "theme": "grown-alchemist-hydrogen-redirect-theme\/main",
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1713913891,
+  "tsPublished": 1713914100,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -372,7 +372,7 @@
     "implicitSavePreferences": false,
     "cookieIcon": false,
     "blockBots": false,
-    "showCookiesDetails": true,
+    "showCookiesDetails": false,
     "hasTransition": true,
     "blockingPage": false,
     "showOnlyLandingPage": false,
@@ -381,19 +381,1422 @@
   },
   "cookies": {
     "0": [
-
+      {
+        "name": "localization",
+        "domain": "checkout.grownalchemist.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Shopify store localization"
+        }
+      },
+      {
+        "name": "cart_currency",
+        "domain": "checkout.grownalchemist.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "en": "The cookie is necessary for the secure checkout and payment function on the website. This function is provided by shopify.com."
+        }
+      },
+      {
+        "name": "_cmp_a",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "1 day(s)",
+        "expires": 1,
+        "unit": "declDays",
+        "purpose": {
+          "en": "Used for managing customer privacy settings."
+        }
+      },
+      {
+        "name": "secure_customer_sig",
+        "domain": "checkout.grownalchemist.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Used in connection with customer login."
+        }
+      },
+      {
+        "name": "keep_alive",
+        "domain": "checkout.grownalchemist.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": "Used in connection with buyer localization."
+        }
+      },
+      {
+        "name": "_tracking_consent",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Tracking preferences."
+        }
+      }
     ],
     "1": [
 
     ],
     "2": [
-
+      {
+        "name": "_shopify_y",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Shopify analytics."
+        }
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "CloudFlare",
+        "firstParty": false,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": "Used to manage incoming traffic that matches criteria associated with bots."
+        }
+      },
+      {
+        "name": "_shopify_s",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_orig_referrer",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "en": "Tracks landing pages."
+        }
+      },
+      {
+        "name": "_landing_page",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "en": "Tracks landing pages."
+        }
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".afterpay.com",
+        "path": "\/",
+        "provider": "CloudFlare",
+        "firstParty": false,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": "Used to manage incoming traffic that matches criteria associated with bots."
+        }
+      },
+      {
+        "name": "_ga",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Cookie is set by Google Analytics with unknown functionality"
+        }
+      },
+      {
+        "name": "_ga_DXFS5E214Z",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      }
     ],
     "4": [
-
+      {
+        "name": "_gcl_au",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": false,
+        "retention": "3 month(s)",
+        "expires": 3,
+        "unit": "declMonths",
+        "purpose": {
+          "en": "Cookie is placed by Google Tag Manager to track conversions."
+        }
+      },
+      {
+        "name": "__kla_id",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Klaviyo",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Tracks when someone clicks through a Klaviyo email to your website."
+        }
+      },
+      {
+        "name": "_ttp",
+        "domain": ".tiktok.com",
+        "path": "\/",
+        "provider": "TikTok",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "To measure and improve the performance of your advertising campaigns and to personalize the user's experience (including ads) on TikTok."
+        }
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "TikTok",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Used to identify a visitor."
+        }
+      },
+      {
+        "name": "_fbp",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Facebook",
+        "firstParty": false,
+        "retention": "3 month(s)",
+        "expires": 3,
+        "unit": "declMonths",
+        "purpose": {
+          "en": "Cookie is placed by Facebook to track visits across websites."
+        }
+      },
+      {
+        "name": "_ttp",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "TikTok",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "To measure and improve the performance of your advertising campaigns and to personalize the user's experience (including ads) on TikTok."
+        }
+      },
+      {
+        "name": "lastExternalReferrerTime",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Facebook",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Contains the timestamp of the last update of the lastExternalReferrer cookie."
+        }
+      },
+      {
+        "name": "lastExternalReferrer",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Facebook",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Detects how the user reached the website by registering their last URL-address."
+        }
+      },
+      {
+        "name": "tt_sessionId",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "TikTok",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Used by the social networking service, TikTok, for tracking the use of embedded services."
+        }
+      },
+      {
+        "name": "tt_appInfo",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "TikTok",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Used by the social networking service, TikTok, for tracking the use of embedded services."
+        }
+      },
+      {
+        "name": "tt_pixel_session_index",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "TikTok",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Used by the social networking service, TikTok, for tracking the use of embedded services."
+        }
+      }
     ],
     "8": [
-
+      {
+        "name": "CookieConsent",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "BVBRANDID",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "session",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": -55,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "BVBRANDSID",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "smsbump_form_pages_session191794",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": -55,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "___ELEVAR_GTM_SUITE--apexDomain",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_ju_v",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_shopify_essential",
+        "domain": "checkout.grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "addshoppers.com",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_ju_dm",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "1 day(s)",
+        "expires": 1,
+        "unit": "declDays",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "addshoppers",
+        "domain": "shop.pe",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "com": {
+            "en": ""
+          },
+          "en": ""
+        }
+      },
+      {
+        "name": "__cflb",
+        "domain": "my.jst.ai",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "40 minute(s)",
+        "expires": 40,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "__cflb",
+        "domain": "aly.jst.ai",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_ju_dc",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_ju_pn",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "smbimpr191794",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "12 hour(s)",
+        "expires": 12,
+        "unit": "declHours",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_ju_dn",
+        "domain": ".grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "1 month(s)",
+        "expires": 1,
+        "unit": "declMonths",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "BVImplmain_site",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": -55,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713913941721",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713913941723",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713913942461",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713913981701",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713913941714",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713913941717",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713913941720",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713913981709",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713913981711",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713913982511",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "apt_pixel",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713914016606",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713914016607",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713913981705",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713913981707",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713914016613",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713914017041",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713914016609",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713914052296",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713914052295",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713914016611",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "eligibleLinkBasedPromos",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "__storage_test__",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713914052298",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713914052300",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713914052302",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_gd1713914052702",
+        "domain": "grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "klaviyoOnsite",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "klaviyoPagesVisitCount",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "positions",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "smsbump_form_show_count191794",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "___ELEVAR_GTM_SUITE--userId",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "asPageViews",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "__kla_viewed",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_kla_test",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "sg.sobj-7afba159761f4dd9b08d585eb8288daf",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "asShopperData",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "asCartContents",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "___ELEVAR_GTM_SUITE--params",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "asHasViewedProductPage",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "sg-tracking-loaded",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "asTimeOnSiteValue",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_ju_dn",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "AS_DATA_PRIVACY_DATA_REGULATED",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "asTimeOnSiteSetTime",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "pixelLastLoadedDatetime",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "asProductViewHistory",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_ju_dm",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "___ELEVAR_GTM_SUITE--cookies",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "___ELEVAR_GTM_SUITE--sessionCount",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "57b77230",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_ju_dc",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "___ELEVAR_GTM_SUITE--sessionId",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_ju_dn",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "___ELEVAR_GTM_SUITE--lastDlPushTimestamp",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "smsbump_form_visited_pages191794",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "3d159845",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_ju_dm",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "107C227B-BC1A-4240-BA7A-BCBEAD0EBF56",
+        "domain": "https:\/\/cdn.jst.ai",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "asUsersActiveEmailCampaign",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "_ju_dc",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "userInfoCache",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "audienceLastLoadedDatetime",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "userInfoLastLoadedDatetime",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      },
+      {
+        "name": "pixelLastLoadedDatetimeIdentity",
+        "domain": "https:\/\/grownalchemist.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": false,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      }
     ]
   },
   "blocker": {
