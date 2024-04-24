@@ -6,30 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
     <meta name="referrer" content="origin">
     {{ content_for_header }}
-    <!-- Shopping Gives -->
-    
-    {% if checkout.attributes['sg.sid-7afba159761f4dd9b08d585eb8288daf'] %}
-    <script type="text/javascript" src="https://cdn.shoppinggives.com/cc-utilities/sgloader.js?sid=7afba159-761f-4dd9-b08d-585eb8288daf"></script>
-    <script src="https://cdn.shoppinggives.com/cc-utilities/shopify-cart.js?store-id=7afba159-761f-4dd9-b08d-585eb8288daf&template-type=1&target-element=.sg-widget__container"></script>
-    <style>
-      .sg-widget__container {
-        display: grid;
-        gap: 10px;
-      }
-      .sg-widget .shoppinggives-tag {
-        margin-bottom: 0 !important;
-      }
-      .sg-widget .main-element.sg-excluded {
-        display: none !important;
-      }
-      .order-summary__sections {
-        height: auto !important;
-      }
-    </style>
-    {% endif %}
-
-    <!-- End Shopping Gives -->
-    
     <!-- EcoCart Carbon Offset -->
     <script async src="https://d2v82nkpsxzrcr.cloudfront.net/ecocart.js?shop_name=grownalchemist2022.myshopify.com"></script>
     <!-- End EcoCart -->
