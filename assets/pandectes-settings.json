@@ -6,7 +6,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1714389320,
+  "tsPublished": 1714739282,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -280,7 +280,7 @@
       "name": "_pandectes_gdpr",
       "expiryDays": 365,
       "secure": true,
-      "domain": ""
+      "domain": "01hwz5pte0er9t39kbshk8rhkn-0b7744b03bee9be9303c.myshopify.dev"
     },
     "dismissOnScroll": false,
     "dismissOnWindowClick": false,
