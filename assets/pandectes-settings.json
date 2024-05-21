@@ -4,9 +4,13 @@
     "plan": "enterprise",
     "theme": "grown-alchemist-hydrogen-redirect-theme\/main",
     "primaryLocale": "en",
-    "adminMode": false
+    "adminMode": false,
+    "headless": true,
+    "storefrontRootDomain": "",
+    "checkoutRootDomain": "",
+    "storefrontAccessToken": ""
   },
-  "tsPublished": 1714739282,
+  "tsPublished": 1716292407,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -280,7 +284,7 @@
       "name": "_pandectes_gdpr",
       "expiryDays": 365,
       "secure": true,
-      "domain": "01hwz5pte0er9t39kbshk8rhkn-0b7744b03bee9be9303c.myshopify.dev"
+      "domain": ""
     },
     "dismissOnScroll": false,
     "dismissOnWindowClick": false,
