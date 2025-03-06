@@ -1,18 +1,24 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "storefront_hostname": "grownalchemist.com",
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "15685250022964305326": {
-        "type": "shopify:\/\/apps\/elevar-conversion-tracking\/blocks\/dataLayerEmbed\/bc30ab68-b15c-4311-811f-8ef485877ad6",
+        "type": "shopify://apps/elevar-conversion-tracking/blocks/dataLayerEmbed/bc30ab68-b15c-4311-811f-8ef485877ad6",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "17151115064775110295": {
-        "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
+        "type": "shopify://apps/recharge-subscriptions/blocks/recharge-theme/371eed76-0b44-4869-9813-730372ea378e",
         "disabled": false,
         "settings": {
           "color_brand": "#467C99",
@@ -28,22 +34,24 @@
         }
       },
       "10261849759452303822": {
-        "type": "shopify:\/\/apps\/shoppinggives\/blocks\/app-embed-block\/7b6c2cd4-8962-4dc6-975b-870e1f567789",
+        "type": "shopify://apps/shoppinggives/blocks/app-embed-block/7b6c2cd4-8962-4dc6-975b-870e1f567789",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "16936614187718193802": {
-        "type": "shopify:\/\/apps\/multifeeds\/blocks\/app_embed\/f3e7ca1d-2d5a-45a7-97dd-2fd45843acef",
+        "type": "shopify://apps/multifeeds/blocks/app_embed/f3e7ca1d-2d5a-45a7-97dd-2fd45843acef",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "735721325670868888": {
+        "type": "shopify://apps/checkmate/blocks/checked_network/697a3444-1374-4f13-ba8c-ec03db25ebf0",
+        "disabled": false,
+        "settings": {}
       }
     }
   }
