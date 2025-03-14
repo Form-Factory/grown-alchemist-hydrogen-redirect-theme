@@ -192,6 +192,14 @@
   <script id="lk-store-locator-script" type="module" crossorigin src="https://cdn.luckylabs.io/prd/store-locator/org/index.js"></script>
 
   <!-- INJECTED CODE BY LUCKY -->
+
+    <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    if (window.yotpo) {
+      window.yotpo.initialized = false;
+    }
+  });
+</script>
 </head>
   <body>
     {%- if should_redirect -%}
